@@ -121,6 +121,7 @@ If you wish to analyze the impact of multiple superstars (e.g., LeBron James, Ky
 You can use tools like **Power BI** or **Tableau** to load the CSV files and visualize the results:
 - Create bar charts, line charts, and tables to compare the pre- and post-superstar performance metrics for each player.
 - Use significance flags (e.g., Significant or Not Significant) to highlight the important changes in performance.
+- In this case, I have used **Power BI** to give a sample visualization of the results, 'NBA_Superstar_Impact_Visualization.pbix' and 'NBA_Superstar_Impact_Visualization_Screenshot.png'
 
 ---
 
@@ -131,10 +132,12 @@ You can use tools like **Power BI** or **Tableau** to load the CSV files and vis
 - `Donovan Mitchell_join_CLE_analysis_results.csv`
 - `James Harden_join_HOU_analysis_results.csv`
 
-These CSV files contain the analysis results for different players and can be combined for comparison.
+These CSV files contain the analysis results for different players and can be combined for comparison. Example of this is as follows: `Combined_Player_analysis_results.csv`
+
+*Note: This project can be optimized more to have less hard-coded inputs, ability to add multiple inputs at once
 
 ---
 
 ## Conclusion
 
-This project provides insights into the impact of a superstar joining an NBA team, with a focus on key performance metrics. The statistical analysis through **t-tests** helps determine whether the changes in team performance (such as win percentage, plus/minus, and points made) are statistically significant. The resulting data can be used for in-depth visual analysis in **Power BI** or **Tableau**, providing a clear understanding of the impact of star players on team performance.
+This project provides insights into the impact of a superstar joining an NBA team, with a focus on key performance metrics. The statistical analysis through **t-tests** helps determine whether the changes in team performance (such as win percentage, plus/minus, and points made) are statistically significant. The resulting data can be used for in-depth visual analysis in **Power BI**, providing a clear understanding of the impact of star players on team performance.
