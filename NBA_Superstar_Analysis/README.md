@@ -42,7 +42,7 @@ To install the necessary libraries, run the following:
 
 ```bash
 pip install nba_api pandas numpy scipy
-'''
+```
 
 ## How It Works
 
